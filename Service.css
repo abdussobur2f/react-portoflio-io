@@ -1,0 +1,22 @@
+.card:hover{
+    background-color: rgb(60, 206, 55);
+    transition: .5s;
+    cursor: pointer;
+}
+.card{
+    border-radius: 0 !important;
+    width: fit-content;
+    line-height: 1.7rem;
+}
+.card-title{
+    margin: 1rem 0;
+}
+.btn{
+    border-radius: 0% !important;
+    background-color: transparent;
+    color: black;
+
+}
+.btn:hover{
+    background-color: rgb(60, 206, 55);
+}

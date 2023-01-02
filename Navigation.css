@@ -1,0 +1,17 @@
+.nav{
+    background-color: rgb(107, 176, 221);
+    
+}
+.navd_roup{
+    color: brown;
+ } 
+.nav-link {
+    margin: 0 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+ }
+  .fontAwesomeicon  {
+    border: none !important;
+    color: aqua;
+ }

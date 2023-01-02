@@ -1,0 +1,58 @@
+.skils{
+    
+    width: 300px;
+    margin: 2rem auto;
+}
+.details{
+    width: 300px;
+ 
+    display: flex;
+    justify-content: space-between;
+}
+.bar{
+    border: 1px solid green;
+    margin: 1rem 0;
+    height: 20px;
+    position: relative;
+
+}
+
+.bar div{
+    width:0;
+    background-color: tomato;
+    position: absolute;
+    height: 20px;
+
+}
+.html-bar{
+    animation: html-fill 2s forwards;
+}
+ @keyframes html-fill{
+    100%{
+        width:90%;
+    }
+ }
+.css-bar{
+    animation: css-fill 2s forwards;
+}
+ @keyframes css-fill{
+    100%{
+        width:80%;
+    }
+ }
+.js-bar{
+    animation: js-fill 2s forwards;
+}
+ @keyframes js-fill{
+    100%{
+        width:70%;
+    }
+ }
+.bo-bar{
+    animation: bo-fill 2s forwards;
+}
+ @keyframes bo-fill{
+    100%{
+        width:60%;
+    }
+ }

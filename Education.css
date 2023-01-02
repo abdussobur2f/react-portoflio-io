@@ -1,0 +1,178 @@
+ .progreess{
+   
+    margin: 3rem 0;
+ }
+ .education_item{
+      
+    padding: 5px 0;
+   margin-left: 10px;
+font-family: 'Times New Roman', Times, serif;
+ 
+  
+     
+ }
+ .bar{
+    margin: 2rem 0;
+
+ }
+ .education_box{
+ margin-top: 20px;
+ box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+     
+ }
+ .education_item h6{
+    
+    background-color :rgb(60, 206, 55);
+    padding: 10px 15px;
+
+ 
+    width: fit-content;
+    text-align: center;
+ } 
+ 
+ .x::after{
+   border: 1px solid rgb(27, 129, 73);
+ height: 15px;
+    position: absolute;
+   content: '';
+   width:100% ;
+ 
+ }
+ .x::before{
+   background-color: rgb(60, 206, 55);
+   position: absolute;
+   content: '';
+   width: 0;
+   height: 15px;
+  animation: html-fill 5s forwards;
+ }
+
+
+ 
+ @keyframes html-fill{
+   100%{
+      width: 90%;
+   }
+ }
+
+
+
+
+
+ .css::after{
+   border: 1px solid rgb(27, 129, 73);
+ height: 15px;
+    position: absolute;
+   content: '';
+   width:100% ;
+ 
+ }
+ .css::before{
+   background-color: rgb(60, 206, 55);
+   position: absolute;
+   content: '';
+   width: 0;
+   height: 15px;
+  animation: css-fill 5s forwards;
+ }
+
+
+ 
+ @keyframes css-fill{
+   100%{
+      width: 80%;
+   }
+ }
+
+
+ .js::after{
+   border: 1px solid rgb(27, 129, 73);
+ height: 15px;
+    position: absolute;
+   content: '';
+   width:100% ;
+ 
+ }
+ 
+ .js::before{
+   background-color: rgb(60, 206, 55);
+   position: absolute;
+   content: '';
+   width: 0;
+   height: 15px;
+  animation: js-fill 5s forwards;
+ }
+
+
+ 
+ @keyframes js-fill{
+   100%{
+      width: 85%;
+   }
+ }
+
+
+
+ .react::after{
+   border: 1px solid rgb(27, 129, 73);
+ height: 15px;
+    position: absolute;
+   content: '';
+   width:100% ;
+ 
+ }
+
+ 
+
+ .react::before{
+   background-color: rgb(60, 206, 55);
+   position: absolute;
+   content: '';
+   width: 0;
+   height: 15px;
+  animation: react-fill 5s forwards;
+ }
+
+
+
+ 
+ @keyframes react-fill{
+   100%{
+      width: 70%;
+   }
+ }
+
+
+
+ .ui::after{
+   border: 1px solid rgb(27, 129, 73);
+ height: 15px;
+    position: absolute;
+   content: '';
+   width:100% ;
+ 
+ }
+
+ 
+ .ui::before{
+   background-color: rgb(60, 206, 55);
+   position: absolute;
+   content: '';
+   width: 0;
+   height: 15px;
+  animation: ui-fill 5s forwards;
+ }
+
+ 
+ 
+ @keyframes ui-fill{
+   100%{
+      width: 65%;
+   }
+ }
+ .main{
+   position: relative;
+   
+ }
+
+ 

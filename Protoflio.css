@@ -1,0 +1,21 @@
+ 
+ 
+.box{
+    border: 1px solid violet;
+}
+.im img{
+ 
+ 
+    object-fit: cover;
+ 
+}
+ .gll {
+    width: 200px;
+ }
+ .Proto{
+    background-color: aqua;
+ }
+ .main_box{
+    background-color: rgba(18, 34, 87, 0.295);
+    
+ }
